@@ -8,7 +8,7 @@ https://youtu.be/lX_Ysn8nhAA <br>
 There are several minor improvements made to the original files.
 
 # Quick overview
-1. First of all you have activate the conda environment specified in `environment.yml` file.
+1. First of all you have activate the conda environment specified in `environment.yml` file. Some packages might be missing, so install on your own!
 2. Then you can generate your own images (or use already created ones in `created_images` directory): ```python image_generator.py```
 3. Then you have to reorder them: ```python prepare_images.py```
 4. Then train you neural network: ```python train.py```
